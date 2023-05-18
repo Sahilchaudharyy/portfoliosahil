@@ -1,6 +1,9 @@
 import React from 'react'
 import Navbar from '../../Component/Navbar'
 import Panel from '../../Component/Panel'
+import { Modal } from 'rsuite'
+import Popup from '../../Component/Popup'
+
 const Home = () => {
   return (
     <div className="container full">
@@ -21,10 +24,11 @@ const Home = () => {
       </div>
       <div className="fixed-social">
         <ul className="social">
-          <li><a href="#" title className="li"><i className="ti-linkedin" /></a></li>
+          <li><a href="https://www.linkedin.com/in/sahil8700" title className="li">
+            <i className="ti-linkedin" /></a></li>
           <li><a href="#" title className="gplus"><i className="ti-google" /></a></li>
-          <li><a href="#" title className="insta"><i className="ti-instagram" /></a></li>
-          <li><a href="#" title className="fb"><i className="ti-facebook" /></a></li>
+          <li><a href="https://www.instagram.com/sahil_o8_/" title className="insta"><i className="ti-instagram" /></a></li>
+         
         </ul>
       </div>
     </div>

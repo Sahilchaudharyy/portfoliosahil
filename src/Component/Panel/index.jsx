@@ -11,7 +11,7 @@ const Panel = ({ children, heading }) => {
                                 <div className="col-md-12">
                                     <div className="title style1">
                                         <h2>{heading}</h2>
-                                        <p>UI &amp; UX Designer</p>
+                                        <p>UI &amp; UX Developer</p>
                                         {children}
                                     </div>
                                 </div>
